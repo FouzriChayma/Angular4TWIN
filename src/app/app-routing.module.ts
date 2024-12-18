@@ -11,14 +11,20 @@ import { ContactModule } from './contact/contact.module';
 import { AproposModule } from './apropos/apropos.module';
 import { AddCategorieComponent } from './add-categorie/add-categorie.component';
 import { UpdateProductComponent } from './update-product/update-product.component';
+import { LoginComponent } from './login/login.component';
+import { AuthentificationGuard } from './guards/authentification.guard';
+import { roleGuard } from './guards/role.guard';
 
 const routes: Routes = [
   {
     path:'',redirectTo:'home',pathMatch:"full"
   },
   {
+    path:'signin' , component:LoginComponent
+  },
+  {
     path:'home', component:HomeComponent,
-    children:[ {path:'categories', component:ListCategoriesComponent}]
+    children:[ {path:'categories', component:ListCategoriesComponent}],canActivate:[AuthentificationGuard , roleGuard]
   },
   {
     path:'categories', component:ListCategoriesComponent,

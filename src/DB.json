@@ -65,26 +65,60 @@
       "promotion": 0
     },
     {
-      "id": 20,
-      "name": "produit 1",
-      "image": "C:\\fakepath\\lave_vaisselle.jpg",
+      "id": null,
+      "name": "azerty",
+      "image": "C:\\fakepath\\personaaa.png",
       "categorieId": "",
-      "description": "new product",
-      "price": "1500",
-      "brand": "none",
-      "promotion": "0",
+      "description": "a",
+      "price": "120",
+      "brand": "serdytfuygiuh",
+      "promotion": "8",
       "categoryId": "3"
     },
     {
-      "id": 21,
-      "name": "test",
-      "image": "C:\\fakepath\\hachoir.jpg",
+      "id": null,
+      "name": "azertoo",
+      "image": "C:\\fakepath\\personaaa.png",
       "categorieId": "",
-      "description": "testForm",
-      "price": "1300",
-      "brand": "electro",
-      "promotion": "0",
+      "description": "a",
+      "price": "120",
+      "brand": "serdytfuygiuh",
+      "promotion": "8",
       "categoryId": "3"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "chaymouna.daaa@example.com",
+      "password": "password123",
+      "role": "ROLE_ADMIN",
+      "name": "chaymouna",
+      "surname": "Daaa"
+    },
+    {
+      "id": 2,
+      "email": "chouchou.ss@example.com",
+      "password": "password456",
+      "role": "ROLE_ADMIN",
+      "name": "chouchou",
+      "surname": "Ss"
+    },
+    {
+      "email": "deedee.chayma@example.com",
+      "password": "$2a$10$8C/pChAwQ9d55UERXDiJf.qsidse5cpXSUgFEnjzRaOQBVkCuwsPG",
+      "id": 3,
+      "role": "ROLE_USER",
+      "name": "DeeDee",
+      "surname": "Chaymaae"
+    },
+    {
+      "email": "deedee.boss@example.com",
+      "password": "$2a$10$Y8KECLVcx83q9Ob5zMWTQO7lVKGFNGzxLR7K5zJbCd0ftWNrld0/a",
+      "id": 4,
+      "role": "ROLE_ADMIN",
+      "name": "DeeDee",
+      "surname": "Chaymaae"
     }
   ]
 }
